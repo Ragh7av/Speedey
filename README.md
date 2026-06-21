@@ -1,6 +1,8 @@
 <h1 align="center">Speedey</h1>
 <div align="center">         
 <p align="center">
+        <img width="1498" height="972" alt="Zine (3)" src="https://github.com/user-attachments/assets/58b22431-ee94-43df-a933-480096e0217b" />
+
 A fast, DIY Bluetooth-controlled RC car powered by an Arduino Uno and an L298N motor driver.
 </p>
 
@@ -33,6 +35,36 @@ A fast, DIY Bluetooth-controlled RC car powered by an Arduino Uno and an L298N m
 
 </div>
 
+# 3D Models
+<p align="center">
+  <img width="32%" alt="Screenshot 2026-06-20 181551" src="https://github.com/user-attachments/assets/29c49071-274d-45c1-b90a-b77d5eee6ebd" />
+  <img width="32%" alt="Screenshot 2026-06-20 181539" src="https://github.com/user-attachments/assets/c60512db-efc8-4799-818c-95cb6ba6a616" />
+  <img width="32%" alt="Screenshot 2026-06-20 175848" src="https://github.com/user-attachments/assets/328a36d8-40e2-4919-825c-9a553a653ec3" />
+</p>
+
+<p align="center">
+  <img width="32%" alt="Screenshot 2026-06-20 172909" src="https://github.com/user-attachments/assets/ea616198-3159-4e15-bc55-6988fb6140c0" />
+  <img width="32%" alt="Screenshot 2026-06-20 172859" src="https://github.com/user-attachments/assets/a53019f5-7053-49fc-80f8-45f6b0ba8ed8" />
+  <img width="32%" alt="Screenshot 2026-06-20 170250" src="https://github.com/user-attachments/assets/96044524-060e-4e87-b12e-aa8a502e4aad" />
+</p>
+
+<p align="center">
+  <img width="32%" alt="Screenshot 2026-06-20 154019" src="https://github.com/user-attachments/assets/d621c291-15c7-4311-97af-40e9f0a3de26" />
+  <img width="32%" alt="Screenshot 2026-06-20 154004" src="https://github.com/user-attachments/assets/0cdb7553-7ff4-424c-901e-6a577bc36195" />
+  <img width="32%" alt="Screenshot 2026-06-20 153926" src="https://github.com/user-attachments/assets/3f4effc8-ed21-40c1-8702-49a0eb8f0c27" />
+</p>
+
+<p align="center">
+  <img width="32%" alt="Screenshot 2026-06-20 153808" src="https://github.com/user-attachments/assets/68515f8f-13d2-4655-b3c0-4c1e3d0d3f6c" />
+  <img width="32%" alt="Screenshot 2026-06-20 153800" src="https://github.com/user-attachments/assets/353e6437-f028-438a-bae3-009571286e2b" />
+  <img width="32%" alt="Screenshot 2026-06-20 153036" src="https://github.com/user-attachments/assets/b601a7a2-c5f3-4539-b3f4-6ad32200cfe5" />
+</p>
+
+<p align="center">
+  <img width="32%" alt="Screenshot 2026-06-20 152645" src="https://github.com/user-attachments/assets/e507bfc9-1230-4200-acc2-7901b1f814d8" />
+  <img width="32%" alt="Screenshot 2026-06-20 181616" src="https://github.com/user-attachments/assets/f6023abe-8e1e-496d-80e5-321b56019ab3" />
+  <img width="32%" alt="Screenshot 2026-06-20 181608" src="https://github.com/user-attachments/assets/21435422-cb82-4e0b-af4f-d0b59b42b2ff" />
+</p>
 # The Components Used
 
 1. Arduino Uno R3 (CH340G)
@@ -42,6 +74,10 @@ A fast, DIY Bluetooth-controlled RC car powered by an Arduino Uno and an L298N m
 5. 18650 Li-ion 3000mAh Rechargeable Batteries (x2)
 6. 18650 Cell Holder
 7. Jumper Wires & Custom Chassis
+
+# Zine
+<img width="972" height="1498" alt="Zine" src="https://github.com/user-attachments/assets/0532f131-b0e9-4fc8-88d2-d60dafc3a4d9" />
+
 
 # Bill of Materials
 
@@ -55,14 +91,10 @@ A fast, DIY Bluetooth-controlled RC car powered by an Arduino Uno and an L298N m
 | Cell holder | [Robu.in](https://robu.in/product/1-x-18650-cell-box/) | 1 | ₹28 | ₹28 |
 | **Subtotal** | | | | **₹998** |
 
-# Wiring / Schematic
+# Wiring diagram
 
-The brains of Speedey operate on a simple circuit:
-* **Motor Driver (L298N)**: Connected to the Arduino digital pins **7, 6, 5, and 4** for directional and PWM speed control.
-* **Bluetooth (HC-05)**: Configured via SoftwareSerial on Arduino pins **14 and 15** (which correspond to Analog pins A0 and A1 on the Uno) to receive commands from the app.
-* **Power**: The 2x 18650 batteries supply the L298N directly, which can also power the Arduino via its 5V regulator.
+<img width="1386" height="1045" alt="WIRING DIAGRAM SPEEDY" src="https://github.com/user-attachments/assets/8939c66e-dd89-4273-b78f-3c6dd1fc4bb4" />
 
-*(A detailed visual guide is available in the `IMAGES` folder as `WIRING DIAGRAM SPEEDY.jpg`).*
 
 # How to Build it?
 
