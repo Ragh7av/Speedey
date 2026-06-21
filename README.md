@@ -1,4 +1,4 @@
-<h1 align="center">MEET SPEEDEY</h1> 
+<img width="2363" height="1219" alt="Screenshot 2026-06-20 153808" src="https://github.com/user-attachments/assets/8fc71a65-f0a0-4373-a79f-32b1311041fa" /><h1 align="center">MEET SPEEDEY</h1> 
 <div align="center">         
 <p align="center">
 
@@ -7,14 +7,14 @@
 
 
 
-A compact clock and timer with a surprise of gaming abilities for when its needed, with a custom 3d printed case and a minimalistic theme. </p>
+A Bluetooth operated toy car which is super fun to drive with a monster truck design. </p>
 
 
         
 <h1 align="center">Overview</h1>
 
         
-<p align="center">This project is a custom retro tabletop built around the esp32 c3 supermini. It includes a vibrant 1.8-inch TFT LCD display, Type-C charging module with inbuilt protection, a rotary encoder module with push button as well, a speaker, some jumper cables and a battery ofc. 
+<p align="center">This project is a custom Monster truck built around Arduino Uno R3. It includes a vibrant 0.96 inch OLED panel, an amazing L298N Motor driver module, HC-05 bluetooth module, BO motors, some jumper cables and a battery ofc. 
 
 
 <h1 align="center">Why am I even building this?</h1>
@@ -26,22 +26,10 @@ A compact clock and timer with a surprise of gaming abilities for when its neede
 
 <h1 align="center">Why Terminal-01?</h1>
 
-So I spend a lot of time on my desk and frequently use a dekstop [Pomodoro timer](https://en.wikipedia.org/wiki/Pomodoro_Technique) app to help me navigate my work/study sessions, I also use a physical clock for seeing time ofc and have nothing really to do in my breaks which wont distract me too much.
-I created this project  (which is also my first hardware project) for solving all these problems and  help myself getting [supercalifragilisticexpialidocious](https://en.wikipedia.org/wiki/Supercalifragilisticexpialidocious) in building super cool hardware things. 
+So I spend a lot of time on my desk and would really an rc car to play with for when Im bored!
 
 <h1 align="center">The Features</h1>
 </div>
-
-1. Real-Time Clock: Displays an automatically synchronizing NTP time feed maintained by background Wi-Fi checks, featuring a persistent on-screen icon.
-
-2. System Alarm: Offers an adjustable interface for setting daily alarms, triggering full-screen flashing visuals and audio sirens when activated.
-
-3. Productivity Timer: Includes a Pomodoro focus timer that alerts users with an aggressive flashing visual and buzzer when a work session completes.
-
-4. Gaming Console: Features a playable "Space Attack" arcade game with programmatic retro sound effects and dynamic boundary collision.
-
-5. Screensaver: Displays a bouncing DVD logo that allows for real-time kinetic speed adjustment using the rotary encoder wheel.
-<div align="center">   
  
 # Repository Contents
 
@@ -56,76 +44,40 @@ I created this project  (which is also my first hardware project) for solving al
 
 
 # 3d render of the assembly
-
-<img width="744" height="775" alt="t1 1 right" src="https://github.com/user-attachments/assets/e2dd0b2b-359b-4211-ba6c-3b8c67448e5f" />
-<img width="1372" height="760" alt="t1 1 back" src="https://github.com/user-attachments/assets/877184fc-3219-41e4-a6a3-05bd65cc9609" />
-<img width="1154" height="615" alt="t-1 1 front" src="https://github.com/user-attachments/assets/51354a61-88d5-496c-96b3-dd11af59533c" />
-<img width="1301" height="750" alt="t1 1 top" src="https://github.com/user-attachments/assets/54ddef35-7762-4fa6-b4d5-7010b2984853" />
-<img width="928" height="757" alt="t1 1 left" src="https://github.com/user-attachments/assets/1c52db39-b2e2-4048-98c4-e2e3b4142f04" />
-<img width="1181" height="741" alt="t1 1 pverview" src="https://github.com/user-attachments/assets/2d40dd26-453f-41a1-9229-020b8603d807" />
+<img width="953" height="527" alt="Screenshot 2026-06-20 175837" src="https://github.com/user-attachments/assets/6a40f238-61b6-4eef-857f-9c837e0fc987" />
+<img width="1273" height="774" alt="Screenshot 2026-06-20 181616" src="https://github.com/user-attachments/assets/ebf0b298-75c9-45f3-a0e9-d7bd8e8366f2" />
+<img width="1455" height="910" alt="Screenshot 2026-06-20 181608" src="https://github.com/user-attachments/assets/1daf51c2-9aed-4523-9415-e56666fc1c39" />
+<img width="1574" height="980" alt="Screenshot 2026-06-20 181551" src="https://github.com/user-attachments/assets/b66e0715-7b4b-4792-bf1e-40b56a520eed" />
+<img width="1558" height="1021" alt="Screenshot 2026-06-20 181539" src="https://github.com/user-attachments/assets/fdccd0ed-5b4d-4761-be61-98ad42c3f10e" />
 
 
-# Case
-
-<img width="1317" height="746" alt="t-1 2 back" src="https://github.com/user-attachments/assets/d0e61939-db62-4721-879d-d2a159d6ebae" />
-<img width="1062" height="632" alt="t-1 2 front" src="https://github.com/user-attachments/assets/58f2f86e-5d25-4d02-8926-fcaaab9d4fa9" />
-<img width="965" height="528" alt="t-1 2 top" src="https://github.com/user-attachments/assets/44aee3d8-b07b-4caa-a4e2-eab0cca9a996" />
-<img width="1089" height="545" alt="t-1 2 overview" src="https://github.com/user-attachments/assets/417eb2f1-792f-44f3-8148-893bd5c1ddc7" />
-<img width="695" height="617" alt="t-1 2 right" src="https://github.com/user-attachments/assets/c5dcdf25-a576-42f3-8697-03767a15c0cb" />
+# Chassis
 
 
-# The Zine page (for featuring in a hackclub magazine)
-<img width="486" height="749" alt="Zine" src="https://github.com/user-attachments/assets/d6e0b8f0-66f6-477e-a657-17be8239d955" />
 
-</div>
+<img width="1647" height="1048" alt="Screenshot 2026-06-20 153036" src="https://github.com/user-attachments/assets/ba877684-333c-454a-b70e-257f3ded42a2" />
+<img width="1158" height="769" alt="Screenshot 2026-06-20 152645" src="https://github.com/user-attachments/assets/a9ddd7b9-daa7-4311-82a4-23bbd43b8237" />
+<img width="729" height="760" alt="Screenshot 2026-06-20 152232" src="https://github.com/user-attachments/assets/7bc3b64b-64ea-44ec-93b2-95df90cc69d2" />
+<img width="1191" height="677" alt="Screenshot 2026-06-20 152220" src="https://github.com/user-attachments/assets/1c970eaf-66d7-41c8-a213-a6d4c16ea270" />
 
-# The components used- 
 
-1. ESP32-C3 Super Mini USB C-Type Development Board (Yes this will have wifi capabilities and will sink time automatically)
-2. KY-040 Rotary Encoder Module
-3. 3.7V 2500mAh 18650 Lithium Ion Rechargeable Battery
-4. Tp4056 1A Lithium Battery Charging Protection Board Module Type C Usb Interface To 4.2V
-5. 8 Ohm 0.5 Watt Speaker-40mm
-6. 1.8-inch TFT LCD Module
-7. Jumper cables
+<img width="2405" height="1036" alt="Screenshot 2026-06-20 154019" src="https://github.com/user-attachments/assets/353a6ffa-6b20-4a45-9761-47fab250b54d" />
+<img width="1768" height="1027" alt="Screenshot 2026-06-20 154004" src="https://github.com/user-attachments/assets/fa43a3f4-940b-4abc-b248-ed40a9d09ac4" />
+<img width="1718" height="888" alt="Screenshot 2026-06-20 153926" src="https://github.com/user-attachments/assets/12216ec0-c4d2-4acb-9935-8e6e27dc9df2" />
 
-# Bill of materials-
-| Product Name | Product Link | Quantity | Base Price | Tax (18%) | Shipping Share (flat shipping) | Total Cost |
-| --- | --- | --- | --- | --- | --- | --- |
-| ESP32 Type-C 38 Pin Dev Board – Dual Core WiFi+BT | [Link](https://robosap.in/product/esp32-type-c-38-pin-dev-board-dual-core-wifibt/) | 1 | ₹335.00 | ₹60.30 | ₹14.29 | ₹409.59 |
-| KY-040 Rotary Encoder Module | [Link](https://robosap.in/product/rotary-encoder-module-for-arduino/) | 1 | ₹51.00 | ₹9.18 | ₹14.29 | ₹74.47 |
-| 3.7V 2500mAh 18650 Lithium Ion Rechargeable Battery | [Link](https://robosap.in/product/3-7v-2500mah-18650-lithium-ion-rechargeable-battery/) | 1 | ₹68.00 | ₹12.24 | ₹14.29 | ₹94.53 |
-| Tp4056 1A Lithium Battery Charging Protection Board Module Type C Usb Interface To 4.2V | [Link](https://robosap.in/product/tp4056-1a-lithium-battery-charging-protection-board-module-type-c-usb-interface-to-4-2v/) | 1 | ₹16.00 | ₹2.88 | ₹14.29 | ₹33.17 |
-| 8 Ohm 0.5 Watt Speaker-40mm | [Link](https://robosap.in/product/8-ohm-0-5-watt-speaker-40mm/) | 1 | ₹45.00 | ₹8.10 | ₹14.29 | ₹67.39 |
-| 1.8-inch TFT LCD Module | [Link](https://robosap.in/product/1-8-inch-tft-spi-lcd-display-module/) | 1 | ₹280.00 | ₹50.40 | ₹14.29 | ₹344.69 |
-| Jumper cables | [Link](https://robosap.in/product/jumper-wire-set-of-male-to-male-male-to-female-and-female-to-female/) | 1 | ₹150.00 | ₹27.00 | ₹14.29 | ₹191.29 |
-| **Total** |  |  | **₹945.00** | **₹170.10** | **₹100.00** | **₹1,215.10** |
 
-# The wiring diagram-
-<img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/e9aeb7bc-977b-47e6-9933-fbc74801f3eb" />
-
+<img width="2293" height="1098" alt="Screenshot 2026-06-20 153800" src="https://github.com/user-attachments/assets/5175338b-3b0a-4ecb-b7cc-f0116a7c8aa0" />
 
 
 # How to Build it?
 
 **To replicate , follow the below mentioned steps:**
-1) First, go grab the CAD from the CAD folder..or you can download the files from [here](https://github.com/Ragh7av/Terminal-01/tree/main/CAD/CAD%20files). I prefer going to the CAD folder and go through the CAD.md for detailed understanding of the CAD.
+1) First, go grab the CAD from the CAD folder..or you can download the files from [here](https://github.com/Ragh7av/Terminal-01/tree/main/CAD/CAD%20files). 
 2) Then grab the parts mentioned in the [BOM](https://github.com/Ragh7av/Terminal-01/blob/main/BOM/BOM.csv)..
 3) Wire up the electronics as per the [Circuit Diagram](https://github.com/Ragh7av/Terminal-01/blob/main/Wiring-diagram/Wiring%20diagram%20for%20Terminal-01%20%20%20(1).png).
-4) Then upload the code from [here](https://github.com/Ragh7av/Terminal-01/blob/main/Firmware/Firmware.ino) in your ESP.
-5) Check if everything is working properly.If yes then proceed to next step or check previous steps again.
-6) Then assemble everything in the 3D shell as per the completely assemble .step file of the CAD
+4) Then upload the code from [here](https://github.com/Ragh7av/Terminal-01/blob/main/Firmware/Firmware.ino) in your UNO.
+5) Assemble it irl and enjoy!!
 
-*Hurrahh!!You replicated Terminal-01*
-
-
-  ## Firmware setup
-  - Replace "Your_wifi" and "pass" with your personal network details (keep the quotation marks).
-  - Set Your Local Time Zone by finding the time offset line in the code which looks like-
-   '''const long gmtOffset_sec = 19800;'''
-  If you are in India (IST), leave it at 19800 (5.5 hours × 3600 seconds).
-  If you are in a different time zone, multiply your GMT/UTC offset hours by 3600 and enter that value.
-   - Upload to Board: Connect your ESP32-C3 SuperMini via a USB-C cable, select the correct Port under Tools > Port, and click the Upload arrow button.
 
 
 
@@ -133,7 +85,3 @@ I created this project  (which is also my first hardware project) for solving al
 
 
 
- <h1>Inspirations</h1> 
- https://github.com/DjukicAleksej/Biblically-Accurate-USB-Hub/?tab=readme-ov-file For repository documentation.
- https://youtu.be/nUozTo_dhss?si=LCkojv6oHQSe04vr for the UI and Firmware.
- 
