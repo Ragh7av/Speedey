@@ -1,51 +1,136 @@
-char t;
- 
+*/
+
+#include <SoftwareSerial.h>
+
+SoftwareSerial bluetoothSerial(14, 15);  // RX, TX
+
+char command;
+int speed = 180;
+int speedReduced;
+int speedHighPWM;
+int speedLowPWM;
+int speedFactorHighPWM;
+int speedFactorLowPWM;
+int speed_reducing_factor = 2;
+
+int in1 = 7;
+int in2 = 6;
+int in3 = 5;
+int in4 = 4;
+
 void setup() {
-pinMode(13,OUTPUT);   //left motors forward
-pinMode(12,OUTPUT);   //left motors reverse
-pinMode(11,OUTPUT);   //right motors forward
-pinMode(10,OUTPUT);   //right motors reverse
-pinMode(9,OUTPUT);   //Led
-Serial.begin(9600);
- 
-}
- 
-void loop() {
-if(Serial.available()){
-  t = Serial.read();
-  Serial.println(t);
-}
- 
-if(t == 'F'){            //move forward(all motors rotate in forward direction)
-  digitalWrite(13,HIGH);
-  digitalWrite(11,HIGH);
-}
- 
-else if(t == 'B'){      //move reverse (all motors rotate in reverse direction)
-  digitalWrite(12,HIGH);
-  digitalWrite(10,HIGH);
-}
- 
-else if(t == 'L'){      //turn right (left side motors rotate in forward direction, right side motors doesn't rotate)
-  digitalWrite(11,HIGH);
-}
- 
-else if(t == 'R'){      //turn left (right side motors rotate in forward direction, left side motors doesn't rotate)
-  digitalWrite(13,HIGH);
+  bluetoothSerial.begin(9600);  //Set the baud rate for the Bluetooth module.
+  Serial.begin(9600);
+
+  // Set all the motor control pins to outputs
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+
+
+  // Turn off motors - Initial state
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, LOW);
 }
 
-else if(t == 'W'){    //turn led on or off)
-  digitalWrite(9,HIGH);
+
+void loop() {
+  if (bluetoothSerial.available() > 0) {
+    command = bluetoothSerial.read();
+    Serial.println(command);
+    //Stop();  //initialize with motors stopped
+
+    if (command == 'F') Forward();  // check string then call a function or set a value
+    else if (command == 'B') Backward();
+    else if (command == 'R') TurnRight();
+    else if (command == 'L') TurnLeft();
+    else if (command == 'G') ForwardLeft();
+    else if (command == 'H') BackwardLeft();
+    else if (command == 'I') ForwardRight();
+    else if (command == 'J') BackwardRight();
+    else if (command == 'S') Stop();
+    else if (command == '0') speed = 120;
+    else if (command == '1') speed = 150;
+    else if (command == '2') speed = 150;
+    else if (command == '3') speed = 175;
+    else if (command == '4') speed = 175;
+    else if (command == '5') speed = 200;
+    else if (command == '6') speed = 200;
+    else if (command == '7') speed = 220;
+    else if (command == '8') speed = 220;
+    else if (command == '9') speed = 255;
+    else if (command == 'q') speed = 255;
+  }
+  speedHighPWM = speed;
+  speedLowPWM = map(speed, 0, 255, 255, 0);
+  speedReduced = (speed / speed_reducing_factor);
+  speedFactorHighPWM = speedReduced;
+  speedFactorLowPWM = map(speedReduced, 0, 255, 255, 0);
 }
-else if(t == 'w'){
-  digitalWrite(9,LOW);
+
+
+void Forward() {
+  digitalWrite(in1, HIGH);
+  analogWrite(in2, speedLowPWM);
+  analogWrite(in3, speedLowPWM);
+  digitalWrite(in4, HIGH);
 }
- 
-else if(t == 'S'){      //STOP (all motors stop)
-  digitalWrite(13,LOW);
-  digitalWrite(12,LOW);
-  digitalWrite(11,LOW);
-  digitalWrite(10,LOW);
+
+void Backward() {
+  digitalWrite(in1, LOW);
+  analogWrite(in2, speedHighPWM);
+  analogWrite(in3, speedHighPWM);
+  digitalWrite(in4, LOW);
 }
-delay(100);
+
+void TurnLeft() {
+  digitalWrite(in1, HIGH);
+  analogWrite(in2, speedLowPWM);
+  analogWrite(in3, speedHighPWM);
+  digitalWrite(in4, LOW);
+}
+
+void TurnRight() {
+  digitalWrite(in1, LOW);
+  analogWrite(in2, speedHighPWM);
+  analogWrite(in3, speedLowPWM);
+  digitalWrite(in4, HIGH);
+}
+
+void ForwardLeft() {
+  digitalWrite(in1, HIGH);
+  analogWrite(in2, speedLowPWM);
+  analogWrite(in3, speedFactorLowPWM);
+  digitalWrite(in4, HIGH);
+}
+
+void ForwardRight() {
+  digitalWrite(in1, HIGH);
+  analogWrite(in2, speedFactorLowPWM);
+  analogWrite(in3, speedLowPWM);
+  digitalWrite(in4, HIGH);
+}
+
+void BackwardLeft() {
+  digitalWrite(in1, LOW);
+  analogWrite(in2, speedHighPWM);
+  analogWrite(in3, speedFactorHighPWM);
+  digitalWrite(in4, LOW);
+}
+
+void BackwardRight() {
+  digitalWrite(in1, LOW);
+  analogWrite(in2, speedFactorHighPWM);
+  analogWrite(in3, speedHighPWM);
+  digitalWrite(in4, LOW);
+}
+
+void Stop() {
+  digitalWrite(in1, LOW);
+  analogWrite(in2, 0);
+  analogWrite(in3, 0);
+  digitalWrite(in4, LOW);
 }
