@@ -3,25 +3,25 @@
 <p align="center">
         <img width="1498" height="972" alt="Zine (3)" src="https://github.com/user-attachments/assets/58b22431-ee94-43df-a933-480096e0217b" />
 
-A fast, DIY Bluetooth-controlled RC car powered by an Arduino Uno and an L298N motor driver.
+A super cool monster truck you can make by yourself.
 </p>
 
 <h1 align="center">Overview</h1>
         
-<p align="center">Speedey is a custom remote-controlled car that connects to your smartphone via Bluetooth. Built around the Arduino Uno, it features four robust BO motors, an HC-05 Bluetooth module for wireless communication, and a reliable L298N motor driver for precise, variable-speed movements. 
+<p align="center"> Speedey, a custom remote controlled car that connects to your smart phone by Bluetooth. Speedy is Built around the Arduino Uno and it features four robust BO motors, an HC-05 Bluetooth module for wireless communication, and a L298N motor driver for ahh driving the motors? 
 
 <h1 align="center">Why am I even building this?</h1>
 <p align="center">
- Just like my previous builds, this project was created to get hands-on experience with hardware integration, motor control, and wireless communication protocols. It's a fun project that bridges the gap between software logic and physical robotics!
+ Just like my previous builds, this project was created to get experienced with hardware projects while building cool stuff I can flaunt.
  </p>
 
 <h1 align="center">The Features</h1>
 </div>
 
-1. **Bluetooth Control**: Seamlessly connect and control the car using standard Bluetooth RC controller apps on your smartphone via the HC-05 module.
-2. **Omnidirectional Maneuverability**: Programmed with specific functions for Forward, Backward, Turning Left/Right, and Diagonal movements (Forward-Left, Backward-Right, etc.).
-3. **Variable Speed Control**: Includes 10-level PWM speed mapping so you can easily adjust the throttle from a slow crawl to full speed.
-4. **4-Wheel Drive**: Powered by 4 DC BO motors connected to an L298N motor driver for maximum torque and grip.
+1. **Bluetooth Control**: connect and control the car using Bluetooth RC controller apps  with the help of HC-05 module.
+2. **Steerable ofc**: Programmed with functions to go Forward, Backward, Turning Left/Right, and Diagonal movements (Forwd-Left, Backward-Right, etc).
+3. **going fast and slow**: Includes 10-level PWM speed mapping so you can easily adjust the throttle from a slow carrawl to full speed hehe.
+4. **4-Wheel Drive**: Powered by 4 DC BO motors. 
 
 <div align="center">   
  
@@ -90,7 +90,7 @@ A fast, DIY Bluetooth-controlled RC car powered by an Arduino Uno and an L298N m
 | 18650 Battery (3000mAh) | [Quartz Components](https://quartzcomponents.com/products/18650-li-ion-3000mah-rechargeable-battery-hobby-grade-only) | 2 | ₹65 | ₹130 |
 | Cell holder | [Robu.in](https://robu.in/product/1-x-18650-cell-box/) | 1 | ₹28 | ₹28 |
 | **Subtotal** | | | | **₹998** |
-
+I have a friend to 3d print the chassis for me so yeah! (go find a friend for yourself, and prefferably touch some grass too) 
 # Wiring diagram
 
 <img width="1386" height="1045" alt="WIRING DIAGRAM SPEEDY" src="https://github.com/user-attachments/assets/8939c66e-dd89-4273-b78f-3c6dd1fc4bb4" />
