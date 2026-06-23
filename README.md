@@ -6,9 +6,9 @@
 A super cool monster truck you can make by yourself.
 </p>
 
-<h1 align="center">Overview</h1>
+<h1 align="center">Description</h1>
         
-<p align="center"> Speedey, a custom remote controlled car that connects to your smart phone by Bluetooth. Speedy is Built around the Arduino Uno and it features four robust BO motors, an HC-05 Bluetooth module for wireless communication, and a L298N motor driver for ahh driving the motors? 
+<p align="center"> Speedey, a custom remote controlled monster truck styled toy car that connects to your smart phone by Bluetooth. Speedy is Built around the Arduino Uno and it features four robust BO motors, an HC-05 Bluetooth module for wireless communication, and a L298N motor driver for ahh driving the motors? 
 
 <h1 align="center">Why am I even building this?</h1>
 <p align="center">
