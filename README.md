@@ -15,6 +15,22 @@ A super cool monster truck you can make by yourself.
  Just like my previous builds, this project was created to get experienced with hardware projects while building cool stuff I can flaunt.
  </p>
 
+ # Repository Contents
+
+| Path | What it contains |
+| :--- | :--- |
+| [`3D_PRINTS`](./3D_PRINTS) | STL files and design assets for 3D printing custom chassis components |
+| [`ASSEMBLY`](./ASSEMBLY) | Step-by-step documentation and complete `.STP` 3D assembly models |
+| [`BOM`](./BOM) | Bill of materials details, component specifications, and cost breakdowns |
+| [`CAD`](./CAD) | Source design and mechanical modeling files for the vehicle body |
+| [`FIRMWARE`](./FIRMWARE) | Arduino C++ code (`.ino`) to process Bluetooth commands and map L298N driver PWM speeds |
+| [`WIRING_DIAGRAM`](./WIRING_DIAGRAM) | Full electrical circuit layouts and pin connections for the hardware |
+| [`ZINE`](./ZINE) | Creative documentation, graphics, or promotional builder zines for the project |
+| [`.gitattributes`](./.gitattributes) | Git configuration mapping Large File Storage (LFS) for heavy 3D files |
+| [`LICENSE`](./LICENSE) | MIT License terms for open-source distribution and modification |
+| [`README.md`](./README.md) | Main documentation landing page featuring overview, 3D renders, and setup steps |
+
+
 <h1 align="center">The Features</h1>
 </div>
 
@@ -25,14 +41,6 @@ A super cool monster truck you can make by yourself.
 
 <div align="center">   
  
-# Repository Contents
-
-| Path | What it contains |
-| --- | --- |
-| `BOM` | Bill of materials details and cost breakdowns |
-| `FIRMWARE` | Arduino C++ code to process Bluetooth commands and control the L298N driver |
-| `IMAGES` | Photos, screenshots, and the wiring diagram for the project |
-
 </div>
 
 # 3D Models
