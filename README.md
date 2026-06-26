@@ -81,7 +81,7 @@ A super cool monster truck you can make by yourself.
 4. 300 RPM BO Motors (x4)
 5. 18650 Li-ion 3000mAh Rechargeable Batteries (x2)
 6. 18650 Cell Holder
-7. Jumper Wires & Custom Chassis
+7. Jumper Wires, M3 Screws & Custom Chassis
 
 # Zine
 <img width="972" height="1498" alt="Zine" src="https://github.com/user-attachments/assets/0532f131-b0e9-4fc8-88d2-d60dafc3a4d9" />
