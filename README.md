@@ -90,7 +90,9 @@ A super cool monster truck you can make by yourself.
 | 18650 Battery (3000mAh) | [Quartz Components](https://quartzcomponents.com/products/18650-li-ion-3000mah-rechargeable-battery-hobby-grade-only) | 2 | ₹65 | ₹130 |
 | Cell holder | [Robu.in](https://robu.in/product/1-x-18650-cell-box/) | 1 | ₹28 | ₹28 |
 | **Subtotal** | | | | **₹998** |
-I have a friend to 3d print the chassis for me for free so yeah! (go find a friend for yourself, and prefferably touch some grass too) 
+
+Note: I have a friend to 3d print the chassis for me for free so yeah! (go find a friend for yourself, and prefferably touch some grass too) 
+
 # Wiring diagram
 
 <img width="1386" height="1045" alt="WIRING DIAGRAM SPEEDY" src="https://github.com/user-attachments/assets/8939c66e-dd89-4273-b78f-3c6dd1fc4bb4" />
