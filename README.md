@@ -91,7 +91,7 @@ A super cool monster truck you can make by yourself.
 | Cell holder | [Robu.in](https://robu.in/product/1-x-18650-cell-box/) | 1 | ₹28 | ₹28 |
 | **Subtotal** | | | | **₹998** |
 
-Note: I have a friend to 3d print the chassis for me for free so yeah! (go find a friend for yourself, and prefferably touch some grass too) 
+Note: I have a friend to 3d print the chassis for me for free so yeah! (go find a friend for yourself, and prefferably touch some grass too
 
 # Wiring diagram
 
