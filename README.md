@@ -12,7 +12,7 @@ A super cool monster truck you can make by yourself.
 
 <h1 align="center">Why am I even building this?</h1>
 <p align="center">
- Just like my previous builds, this project was created to get experienced with hardware projects while building cool stuff I can flaunt.
+ Just like my previous builds, this project was created to get experienced with hardware design while building cool stuff I can flaunt.
  </p>
 
  # Repository Contents
